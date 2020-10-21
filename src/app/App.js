@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 
 import SwipeableViews from "react-swipeable-views";
@@ -12,9 +12,15 @@ import Works from "../sections/Works";
 const BindKeyboardSwipeableViews = bindKeyboard(SwipeableViews);
 
 function App() {
+  const [section, setSection] = useState();
+
+  const showIndex = (e) => {
+    console.log(e);
+  };
+
   return (
     <div className="App">
-      <BindKeyboardSwipeableViews>
+      <BindKeyboardSwipeableViews onChangeIndex={(e) => showIndex(e)}>
         <Home />
         <About />
         <Works />

@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans:wght@300&display=swap");
+
 .App {
   text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.home-text {
+  font-size: 100px;
+  padding: 0 4vw;
+  text-align: right;
+  align-self: center;
+  font-family: "Libre Baskerville";
+  text-shadow: 12px 7px #053c3c;
 }
