@@ -24,7 +24,6 @@ function App() {
 
   return (
     <div className="App">
-      {console.log("currently on section:", section)}
       <BindKeyboardSwipeableViews onChangeIndex={(e) => showIndex(e)}>
         <Home />
         <About />
