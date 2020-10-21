@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 
 import SwipeableViews from "react-swipeable-views";
@@ -15,11 +15,16 @@ function App() {
   const [section, setSection] = useState();
 
   const showIndex = (e) => {
-    console.log(e);
+    setSection(e);
   };
+
+  useEffect(() => {
+    setSection(0);
+  }, []);
 
   return (
     <div className="App">
+      {console.log("currently on section:", section)}
       <BindKeyboardSwipeableViews onChangeIndex={(e) => showIndex(e)}>
         <Home />
         <About />
