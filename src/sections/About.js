@@ -1,26 +1,30 @@
 import React from "react";
 import { Avatar, Box, makeStyles } from "@material-ui/core";
 import graduate from "../assets/img/graduate.jpg";
+import tuan from "../assets/img/tuan.jpg";
 
 const About = () => {
   const classes = useStyles();
   return (
-    <Box className={classes.about}>
-      <Box>
-        {/* src={graduate} */}
-        <Avatar alt="Grad Photo" className={classes.photo} />
+    <>
+      <Box className={classes.about}>
+        <Box>
+          {/* src={graduate} */}
+          <Avatar alt="Grad Photo" className={classes.photo} />
+        </Box>
+        <Box className="about-description">
+          <h1 className={classes.heading}>A little about me</h1>
+          <p>
+            Hey, I'm Louise. I'm a recent Information Systems graduate from De
+            La Salle - College of Saint Benilde. I've taken an interest in
+            developing web application using ReactJS and mobile applications
+            using React Native.
+          </p>
+          <p>Other programming languages that I am familiar with are:</p>
+          {/* add chart down here another box? */}
+        </Box>
       </Box>
-      <Box className="about-description">
-        <h1 className={classes.heading}>A little about me</h1>
-        <p>
-          Hey, I'm Louise. I'm a recent Information Systems graduate from De La
-          Salle - College of Saint Benilde. I've taken an interest in developing
-          web application using ReactJS and mobile applications using React
-          Native.
-        </p>
-        <p>Other programming languages that I am familiar with are:</p>
-      </Box>
-    </Box>
+    </>
   );
 };
 
@@ -32,6 +36,10 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     color: "#FFFF",
     backgroundColor: "#000051",
+    background: `linear-gradient(
+      rgba(0,0,0,0.6),
+      rgb(0 0 0 / 71%) ) ,
+      url(${tuan})`,
 
     [theme.breakpoints.down("sm")]: {
       flexDirection: "column",
