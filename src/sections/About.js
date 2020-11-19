@@ -6,7 +6,7 @@ const About = () => {
   const classes = useStyles();
   return (
     <Box className={classes.about}>
-      <Box className="about-photo">
+      <Box>
         {/* src={graduate} */}
         <Avatar alt="Grad Photo" className={classes.photo} />
       </Box>
@@ -53,7 +53,6 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   photo: {
-    alignSelf: "center",
     [theme.breakpoints.down("sm")]: {
       height: theme.spacing(30),
       width: theme.spacing(30),
