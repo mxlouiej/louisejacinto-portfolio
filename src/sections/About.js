@@ -37,17 +37,14 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "#000051",
 
     [theme.breakpoints.down("sm")]: {
-      backgroundColor: "red",
       flexDirection: "column",
       //smallest
     },
     [theme.breakpoints.up("md")]: {
-      backgroundColor: "blue",
       flexDirection: "column",
       // medium,
     },
     [theme.breakpoints.up("lg")]: {
-      backgroundColor: "green",
       flexDirection: "row",
       padding: "0 15vh",
     },
