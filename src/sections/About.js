@@ -11,17 +11,14 @@ const About = () => {
         <Avatar alt="Grad Photo" className={classes.photo} />
       </Box>
       <Box className="about-description">
-        <h2>A little about me</h2>
+        <h1 className={classes.heading}>A little about me</h1>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged.
-          {/* Hey, I'm Louise. I'm a recent Information Systems graduate from De La
-          Salle - College of Saint Benilde. */}
+          Hey, I'm Louise. I'm a recent Information Systems graduate from De La
+          Salle - College of Saint Benilde. I've taken an interest in developing
+          web application using ReactJS and mobile applications using React
+          Native.
         </p>
+        <p>Other programming languages that I am familiar with are:</p>
       </Box>
     </Box>
   );
@@ -62,6 +59,10 @@ const useStyles = makeStyles((theme) => ({
       height: theme.spacing(40),
       width: theme.spacing(40),
     },
+  },
+  heading: {
+    fontFamily: "Alegreya, serif",
+    textTransform: "uppercase",
   },
 }));
 
