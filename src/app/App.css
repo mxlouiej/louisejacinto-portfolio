@@ -10,7 +10,7 @@
   text-align: right;
   align-self: center;
   font-family: "Libre Baskerville";
-  text-shadow: 12px 7px #053c3c;
+  text-shadow: 12px 7px #3f0361;
   margin-bottom: 0;
 }
 
@@ -20,9 +20,10 @@
   text-transform: uppercase;
 }
 
-.about-container {
-  display: flex;
-  justify-content: space-between;
+.about-description {
+  font-size: 24px;
+  margin: 0 5vh;
+  text-align: justify;
 }
 
 .about-photo {
@@ -34,15 +35,19 @@
   color: #ababab;
 }
 
-/* On screens that are 992px or less, set the background color to blue */
+/* On screens that are 992px or less, smallest */
 @media screen and (max-width: 992px) {
   .subtitle {
     text-align: right;
   }
+  .about-description {
+    text-align: center;
+  }
 }
 
-/* On screens that are 600px or less, set the background color to olive */
-/* @media screen and (max-width: 600px) {
-  .subtitle {
+/* On screens that are 600px or less, medium */
+@media screen and (max-width: 1279px) {
+  .about-description {
+    text-align: center;
   }
-} */
+}

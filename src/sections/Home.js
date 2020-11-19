@@ -19,15 +19,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     minHeight: "100vh",
     color: "#FFFF",
-    backgroundColor: "#005151",
-
-    [theme.breakpoints.down("sm")]: {
-      // backgroundColor: "red", smallest
-    },
-    [theme.breakpoints.up("md")]: {
-      // backgroundColor: "blue", medium
-    },
-    [theme.breakpoints.up("lg")]: {},
+    backgroundColor: "#5C068C",
   },
 }));
 
