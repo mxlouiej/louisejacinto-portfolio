@@ -2,11 +2,13 @@ import React from "react";
 import { Box, makeStyles } from "@material-ui/core";
 
 const Home = () => {
-  const classes = useStyles();
+  const homeStyles = useStyles();
   return (
-    <Box className={classes.landing}>
+    <Box className={homeStyles.landing}>
       <h1 className="home-text">Well, hello there!</h1>
-      <p className="subtitle">Go swipe right to view my portfolio 👉</p>
+      <p className="subtitle">
+        Go swipe right (or use right arrow key) to view my portfolio 👉👉👉
+      </p>
     </Box>
   );
 };

@@ -4,16 +4,16 @@ import graduate from "../assets/img/graduate.jpg";
 import tuan from "../assets/img/tuan.jpg";
 
 const About = () => {
-  const classes = useStyles();
+  const aboutStyles = useStyles();
   return (
     <>
-      <Box className={classes.about}>
+      <Box className={aboutStyles.about}>
         <Box>
           {/* src={graduate} */}
-          <Avatar alt="Grad Photo" className={classes.photo} />
+          <Avatar alt="Grad Photo" className={aboutStyles.photo} />
         </Box>
         <Box className="about-description">
-          <h1 className={classes.heading}>A little about me</h1>
+          <h1 className={aboutStyles.heading}>A little about me</h1>
           <p>
             Hey, I'm Louise. I'm a recent Information Systems graduate from De
             La Salle - College of Saint Benilde. I've taken an interest in
