@@ -4,15 +4,8 @@
   font-family: "Lato", sans-serif;
 }
 
-.subtitle {
-  color: #ababab;
-}
-
 /* On screens that are 992px or less, smallest */
 @media screen and (max-width: 992px) {
-  .subtitle {
-    text-align: right;
-  }
 }
 
 /* On screens that are 600px or less, medium */
