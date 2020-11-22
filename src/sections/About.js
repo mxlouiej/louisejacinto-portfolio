@@ -12,7 +12,7 @@ const About = () => {
           {/* src={graduate} */}
           <Avatar alt="Grad Photo" className={aboutStyles.photo} />
         </Box>
-        <Box className="about-description">
+        <Box className={aboutStyles.description}>
           <h1 className={aboutStyles.heading}>A little about me</h1>
           <p>
             Hey, I'm Louise. I'm a recent Information Systems graduate from De
@@ -52,6 +52,16 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("lg")]: {
       flexDirection: "row",
       padding: "0 15vh",
+    },
+  },
+  description: {
+    fontSize: "24px",
+    margin: "0 5vh",
+    textAlign: "justify",
+
+    [theme.breakpoints.down("sm")]: {
+      textAlign: "center",
+      // medium,
     },
   },
   photo: {

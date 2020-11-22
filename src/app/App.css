@@ -4,21 +4,6 @@
   font-family: "Lato", sans-serif;
 }
 
-.home-text {
-  font-size: 100px;
-  text-align: right;
-  align-self: center;
-  font-family: "Alegreya", serif;
-  text-shadow: 12px 7px #3f0361;
-  margin-bottom: 0;
-}
-
-.about-description {
-  font-size: 24px;
-  margin: 0 5vh;
-  text-align: justify;
-}
-
 .subtitle {
   color: #ababab;
 }
@@ -28,14 +13,8 @@
   .subtitle {
     text-align: right;
   }
-  .about-description {
-    text-align: center;
-  }
 }
 
 /* On screens that are 600px or less, medium */
 @media screen and (max-width: 1279px) {
-  .about-description {
-    text-align: center;
-  }
 }
