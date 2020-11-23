@@ -10,7 +10,11 @@ const About = () => {
       <Box className={aboutStyles.about}>
         <Box>
           {/* src={graduate} */}
-          <Avatar alt="Grad Photo" className={aboutStyles.photo} />
+          <Avatar
+            alt="Grad Photo"
+            src={graduate}
+            className={aboutStyles.photo}
+          />
         </Box>
         <Box className={aboutStyles.description}>
           <h1 className={aboutStyles.heading}>A little about me</h1>
@@ -20,8 +24,10 @@ const About = () => {
             developing web application using ReactJS and mobile applications
             using React Native.
           </p>
-          <p>Other programming languages that I am familiar with are:</p>
-          {/* add chart down here another box? */}
+          <p>
+            Other than using HTML5, CSS, PHP, Java, MySQL, and JavaScript I also
+            am experienced in using Nodejs and MongoDB.
+          </p>
         </Box>
       </Box>
     </>
