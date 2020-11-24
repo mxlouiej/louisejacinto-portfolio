@@ -65,7 +65,7 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "justify",
 
     [theme.breakpoints.down("sm")]: {
-      padding: "0 2vw",
+      margin: "0 5vw",
       // medium,
     },
     [theme.breakpoints.up("md")]: {

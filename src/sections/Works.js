@@ -155,6 +155,7 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("md")]: {
       height: theme.spacing(40),
       width: theme.spacing(20),
+      marginLeft: "1.5vw",
       // medium,
     },
     [theme.breakpoints.up("lg")]: {
@@ -173,6 +174,7 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("md")]: {
       height: theme.spacing(40),
       width: theme.spacing(65),
+      marginLeft: "1.5vw",
       // medium,
     },
     [theme.breakpoints.up("lg")]: {
