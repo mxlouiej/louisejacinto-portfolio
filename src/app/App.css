@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Castoro&family=Catamaran:wght@100&display=swap");
 .App {
   text-align: center;
-  font-family: "Lato", sans-serif;
+  font-family: "Catamaran", sans-serif;
 }
 
 /* On screens that are 992px or less, smallest */

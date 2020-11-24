@@ -1,11 +1,14 @@
 import React from "react";
 import { Box, makeStyles } from "@material-ui/core";
+import Jump from "react-reveal/Jump";
 
 const Home = () => {
   const homeStyles = useStyles();
   return (
     <Box className={homeStyles.landing}>
-      <h1 className={homeStyles.homeText}>Well, hello there!</h1>
+      <Jump forever={true}>
+        <h1 className={homeStyles.homeText}>Hello there!</h1>
+      </Jump>
       <p className={homeStyles.subtitle}>
         Go swipe right (or use right arrow key) to view my portfolio 👉👉👉
       </p>
@@ -27,11 +30,12 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "100px",
     textAlign: "right",
     alignSelf: "center",
-    fontFamily: "Alegreya, serif",
+    fontFamily: "Castoro, serif",
     textShadow: "12px 7px #3f0361",
     marginBottom: "0",
   },
   subtitle: {
+    fontFamily: "Lato, sans-serif",
     color: "#ababab",
 
     [theme.breakpoints.down("sm")]: {

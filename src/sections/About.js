@@ -17,12 +17,12 @@ const About = () => {
           />
         </Box>
         <Box className={aboutStyles.description}>
-          <h1 className={aboutStyles.heading}>A little about me</h1>
+          <h1 className={aboutStyles.heading}>Louise Jacinto</h1>
           <p>
-            Hey, I'm Louise. I'm a recent Information Systems graduate from De
-            La Salle - College of Saint Benilde. I've taken an interest in
-            developing web application using ReactJS and mobile applications
-            using React Native.
+            I'm a recent Information Systems graduate from De La Salle - College
+            of Saint Benilde. I've taken an interest in developing web
+            application using ReactJS and mobile applications using React
+            Native.
           </p>
           <p>
             Other than using HTML5, CSS, PHP, Java, MySQL, and JavaScript I also
@@ -62,12 +62,17 @@ const useStyles = makeStyles((theme) => ({
   },
   description: {
     fontSize: "24px",
-    margin: "0 5vh",
     textAlign: "justify",
 
     [theme.breakpoints.down("sm")]: {
-      textAlign: "center",
+      padding: "0 2vw",
       // medium,
+    },
+    [theme.breakpoints.up("md")]: {
+      margin: "0 15vw",
+    },
+    [theme.breakpoints.up("lg")]: {
+      margin: "0 5vw",
     },
   },
   photo: {
@@ -85,8 +90,11 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   heading: {
-    fontFamily: "Alegreya, serif",
-    textTransform: "uppercase",
+    fontFamily: "Castoro, serif",
+    [theme.breakpoints.down("sm")]: {
+      fontSize: "40px",
+      // medium,
+    },
   },
 }));
 
