@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/%7BGithub-repo-name%7D/static/css/main.8f238a18.chunk.css",
-    "main.js": "/%7BGithub-repo-name%7D/static/js/main.098555e8.chunk.js",
-    "main.js.map": "/%7BGithub-repo-name%7D/static/js/main.098555e8.chunk.js.map",
-    "runtime-main.js": "/%7BGithub-repo-name%7D/static/js/runtime-main.a8339c97.js",
-    "runtime-main.js.map": "/%7BGithub-repo-name%7D/static/js/runtime-main.a8339c97.js.map",
-    "static/js/2.c540aba3.chunk.js": "/%7BGithub-repo-name%7D/static/js/2.c540aba3.chunk.js",
-    "static/js/2.c540aba3.chunk.js.map": "/%7BGithub-repo-name%7D/static/js/2.c540aba3.chunk.js.map",
-    "index.html": "/%7BGithub-repo-name%7D/index.html",
-    "precache-manifest.5ce8ad181e892c4fa20d424291c7d0d7.js": "/%7BGithub-repo-name%7D/precache-manifest.5ce8ad181e892c4fa20d424291c7d0d7.js",
-    "service-worker.js": "/%7BGithub-repo-name%7D/service-worker.js",
-    "static/css/main.8f238a18.chunk.css.map": "/%7BGithub-repo-name%7D/static/css/main.8f238a18.chunk.css.map",
-    "static/js/2.c540aba3.chunk.js.LICENSE.txt": "/%7BGithub-repo-name%7D/static/js/2.c540aba3.chunk.js.LICENSE.txt",
-    "static/media/graduate.jpg": "/%7BGithub-repo-name%7D/static/media/graduate.9b3262c3.jpg",
-    "static/media/partake.png": "/%7BGithub-repo-name%7D/static/media/partake.d30d7f9f.png",
-    "static/media/partakeIcon.png": "/%7BGithub-repo-name%7D/static/media/partakeIcon.e0835247.png",
-    "static/media/partakeLogin.jpg": "/%7BGithub-repo-name%7D/static/media/partakeLogin.733b43c2.jpg",
-    "static/media/qrCode.jpg": "/%7BGithub-repo-name%7D/static/media/qrCode.3f77c133.jpg",
-    "static/media/qrHome.jpg": "/%7BGithub-repo-name%7D/static/media/qrHome.ecab48c7.jpg",
-    "static/media/qrIcon.png": "/%7BGithub-repo-name%7D/static/media/qrIcon.bcb73f69.png",
-    "static/media/tuan.jpg": "/%7BGithub-repo-name%7D/static/media/tuan.c1f699bf.jpg"
+    "main.css": "/louisejacinto-portfolio/static/css/main.8f238a18.chunk.css",
+    "main.js": "/louisejacinto-portfolio/static/js/main.ba74cdbb.chunk.js",
+    "main.js.map": "/louisejacinto-portfolio/static/js/main.ba74cdbb.chunk.js.map",
+    "runtime-main.js": "/louisejacinto-portfolio/static/js/runtime-main.5adfe542.js",
+    "runtime-main.js.map": "/louisejacinto-portfolio/static/js/runtime-main.5adfe542.js.map",
+    "static/js/2.c540aba3.chunk.js": "/louisejacinto-portfolio/static/js/2.c540aba3.chunk.js",
+    "static/js/2.c540aba3.chunk.js.map": "/louisejacinto-portfolio/static/js/2.c540aba3.chunk.js.map",
+    "index.html": "/louisejacinto-portfolio/index.html",
+    "precache-manifest.a941f4054ef818c991a993a481dac8ba.js": "/louisejacinto-portfolio/precache-manifest.a941f4054ef818c991a993a481dac8ba.js",
+    "service-worker.js": "/louisejacinto-portfolio/service-worker.js",
+    "static/css/main.8f238a18.chunk.css.map": "/louisejacinto-portfolio/static/css/main.8f238a18.chunk.css.map",
+    "static/js/2.c540aba3.chunk.js.LICENSE.txt": "/louisejacinto-portfolio/static/js/2.c540aba3.chunk.js.LICENSE.txt",
+    "static/media/graduate.jpg": "/louisejacinto-portfolio/static/media/graduate.9b3262c3.jpg",
+    "static/media/partake.png": "/louisejacinto-portfolio/static/media/partake.d30d7f9f.png",
+    "static/media/partakeIcon.png": "/louisejacinto-portfolio/static/media/partakeIcon.e0835247.png",
+    "static/media/partakeLogin.jpg": "/louisejacinto-portfolio/static/media/partakeLogin.733b43c2.jpg",
+    "static/media/qrCode.jpg": "/louisejacinto-portfolio/static/media/qrCode.3f77c133.jpg",
+    "static/media/qrHome.jpg": "/louisejacinto-portfolio/static/media/qrHome.ecab48c7.jpg",
+    "static/media/qrIcon.png": "/louisejacinto-portfolio/static/media/qrIcon.bcb73f69.png",
+    "static/media/tuan.jpg": "/louisejacinto-portfolio/static/media/tuan.c1f699bf.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a8339c97.js",
+    "static/js/runtime-main.5adfe542.js",
     "static/js/2.c540aba3.chunk.js",
     "static/css/main.8f238a18.chunk.css",
-    "static/js/main.098555e8.chunk.js"
+    "static/js/main.ba74cdbb.chunk.js"
   ]
 }
