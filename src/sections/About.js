@@ -48,6 +48,7 @@ const useStyles = makeStyles((theme) => ({
       url(${tuan})`,
 
     [theme.breakpoints.down("sm")]: {
+      paddingTop: "5vh",
       flexDirection: "column",
       //smallest
     },
@@ -57,7 +58,7 @@ const useStyles = makeStyles((theme) => ({
     },
     [theme.breakpoints.up("lg")]: {
       flexDirection: "row",
-      padding: "0 15vh",
+      padding: "0 20vw",
     },
   },
   description: {
@@ -65,11 +66,12 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "justify",
 
     [theme.breakpoints.down("sm")]: {
-      margin: "0 5vw",
+      margin: "0 20vw",
+      fontSize: "18px",
       // medium,
     },
     [theme.breakpoints.up("md")]: {
-      margin: "0 15vw",
+      margin: "0 25vw",
     },
     [theme.breakpoints.up("lg")]: {
       margin: "0 5vw",
@@ -93,6 +95,7 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: "Castoro, serif",
     [theme.breakpoints.down("sm")]: {
       fontSize: "40px",
+      textAlign: "center",
       // medium,
     },
   },

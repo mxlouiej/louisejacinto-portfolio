@@ -142,6 +142,7 @@ const useStyles = makeStyles((theme) => ({
   },
   projectTitle: {
     fontSize: "35px",
+    marginBottom: "0",
     textDecoration: "overline",
     textTransform: "lowercase",
   },
@@ -216,6 +217,10 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "justify",
     margin: "0 15vw",
     fontSize: "25px",
+    [theme.breakpoints.down("sm")]: {
+      //smallest
+      fontSize: "18px",
+    },
   },
   images: {
     display: "flex",
