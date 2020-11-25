@@ -2,7 +2,7 @@
   "name": "louisejacinto-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mxlouiej.github.io/{Github-repo-name}",
+  "homepage": "http://mxlouiej.github.io/louisejacinto-portfolio",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
