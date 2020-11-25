@@ -169,7 +169,7 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: "5px 10px 6px #888888",
     [theme.breakpoints.down("sm")]: {
       height: theme.spacing(50),
-      width: theme.spacing(65),
+      width: theme.spacing(35),
       //smallest
     },
     [theme.breakpoints.up("md")]: {
