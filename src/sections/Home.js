@@ -10,7 +10,10 @@ const Home = () => {
         <h1 className={homeStyles.homeText}>Hello there!</h1>
       </Jump>
       <p className={homeStyles.subtitle}>
-        Go swipe right (or use right arrow key) to view my portfolio 👉👉👉
+        Go swipe right (or use right arrow key) to view my portfolio{" "}
+        <span role="img" aria-label="backhand index pointing right">
+          👉👉👉
+        </span>
       </p>
     </Box>
   );

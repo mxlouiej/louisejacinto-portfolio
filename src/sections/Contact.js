@@ -30,8 +30,18 @@ const Contact = () => {
     <Box className={contactStyles.contact}>
       {/* <h1 className={contactStyles.heading}>Contact Me</h1> */}
       <Box className={contactStyles.info}>
-        <p>📍 Caloocan, Philippines</p>
-        <p>📧 mn.louisejacinto@gmail.com</p>
+        <p>
+          <span role="img" aria-label="round pushpin">
+            📍
+          </span>{" "}
+          Caloocan, Philippines
+        </p>
+        <p>
+          <span role="img" aria-label="e-mail">
+            📧
+          </span>{" "}
+          mn.louisejacinto@gmail.com
+        </p>
       </Box>
       <Box className={contactStyles.iconBox}>
         <Tada spy={gitHub}>
