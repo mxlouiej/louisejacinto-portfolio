@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "57adf855fdcd8232200cc0408d2ad9ba",
+    "revision": "e98b269a7b64fdbd5a7b54e75860a9be",
     "url": "/louisejacinto-portfolio/index.html"
   },
   {
-    "revision": "fa59c9f6ba5704027a60",
+    "revision": "a89c190084908300df9b",
     "url": "/louisejacinto-portfolio/static/css/main.8f238a18.chunk.css"
   },
   {
-    "revision": "40475b02deb7af821474",
-    "url": "/louisejacinto-portfolio/static/js/2.c540aba3.chunk.js"
+    "revision": "609a79bed480afc05e4f",
+    "url": "/louisejacinto-portfolio/static/js/2.b923644a.chunk.js"
   },
   {
     "revision": "f293a69d83dc5aae2b3790570d6800d6",
-    "url": "/louisejacinto-portfolio/static/js/2.c540aba3.chunk.js.LICENSE.txt"
+    "url": "/louisejacinto-portfolio/static/js/2.b923644a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fa59c9f6ba5704027a60",
-    "url": "/louisejacinto-portfolio/static/js/main.0c2c6d16.chunk.js"
+    "revision": "a89c190084908300df9b",
+    "url": "/louisejacinto-portfolio/static/js/main.2079cfe9.chunk.js"
   },
   {
     "revision": "959df7e2bd8f1591b2d3",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bcb73f69199e340b20ee4d4a3b76ded9",
     "url": "/louisejacinto-portfolio/static/media/qrIcon.bcb73f69.png"
+  },
+  {
+    "revision": "8549a9e6254a2aada9bfc816070cd155",
+    "url": "/louisejacinto-portfolio/static/media/tilted logo.8549a9e6.png"
   },
   {
     "revision": "c1f699bf6c2d29bcfe039b1533095b48",

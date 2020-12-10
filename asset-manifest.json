@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/louisejacinto-portfolio/static/css/main.8f238a18.chunk.css",
-    "main.js": "/louisejacinto-portfolio/static/js/main.0c2c6d16.chunk.js",
-    "main.js.map": "/louisejacinto-portfolio/static/js/main.0c2c6d16.chunk.js.map",
+    "main.js": "/louisejacinto-portfolio/static/js/main.2079cfe9.chunk.js",
+    "main.js.map": "/louisejacinto-portfolio/static/js/main.2079cfe9.chunk.js.map",
     "runtime-main.js": "/louisejacinto-portfolio/static/js/runtime-main.5adfe542.js",
     "runtime-main.js.map": "/louisejacinto-portfolio/static/js/runtime-main.5adfe542.js.map",
-    "static/js/2.c540aba3.chunk.js": "/louisejacinto-portfolio/static/js/2.c540aba3.chunk.js",
-    "static/js/2.c540aba3.chunk.js.map": "/louisejacinto-portfolio/static/js/2.c540aba3.chunk.js.map",
+    "static/js/2.b923644a.chunk.js": "/louisejacinto-portfolio/static/js/2.b923644a.chunk.js",
+    "static/js/2.b923644a.chunk.js.map": "/louisejacinto-portfolio/static/js/2.b923644a.chunk.js.map",
     "index.html": "/louisejacinto-portfolio/index.html",
-    "precache-manifest.74e5af4f3fcb143e014c81c5a9beb28d.js": "/louisejacinto-portfolio/precache-manifest.74e5af4f3fcb143e014c81c5a9beb28d.js",
+    "precache-manifest.b55302d40423cc49ad21e60114b7e51f.js": "/louisejacinto-portfolio/precache-manifest.b55302d40423cc49ad21e60114b7e51f.js",
     "service-worker.js": "/louisejacinto-portfolio/service-worker.js",
     "static/css/main.8f238a18.chunk.css.map": "/louisejacinto-portfolio/static/css/main.8f238a18.chunk.css.map",
-    "static/js/2.c540aba3.chunk.js.LICENSE.txt": "/louisejacinto-portfolio/static/js/2.c540aba3.chunk.js.LICENSE.txt",
+    "static/js/2.b923644a.chunk.js.LICENSE.txt": "/louisejacinto-portfolio/static/js/2.b923644a.chunk.js.LICENSE.txt",
     "static/media/graduate.jpg": "/louisejacinto-portfolio/static/media/graduate.9b3262c3.jpg",
     "static/media/partake.png": "/louisejacinto-portfolio/static/media/partake.d30d7f9f.png",
     "static/media/partakeIcon.png": "/louisejacinto-portfolio/static/media/partakeIcon.e0835247.png",
@@ -19,12 +19,13 @@
     "static/media/qrCode.jpg": "/louisejacinto-portfolio/static/media/qrCode.3f77c133.jpg",
     "static/media/qrHome.jpg": "/louisejacinto-portfolio/static/media/qrHome.ecab48c7.jpg",
     "static/media/qrIcon.png": "/louisejacinto-portfolio/static/media/qrIcon.bcb73f69.png",
+    "static/media/tilted logo.png": "/louisejacinto-portfolio/static/media/tilted logo.8549a9e6.png",
     "static/media/tuan.jpg": "/louisejacinto-portfolio/static/media/tuan.c1f699bf.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5adfe542.js",
-    "static/js/2.c540aba3.chunk.js",
+    "static/js/2.b923644a.chunk.js",
     "static/css/main.8f238a18.chunk.css",
-    "static/js/main.0c2c6d16.chunk.js"
+    "static/js/main.2079cfe9.chunk.js"
   ]
 }
