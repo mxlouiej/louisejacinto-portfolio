@@ -1,34 +1,43 @@
 import React, { useState } from "react";
-import { Box, makeStyles, Tooltip, Link } from "@material-ui/core";
+import { Box, makeStyles, Tooltip, Link, Avatar } from "@material-ui/core";
 import Tada from "react-reveal/Tada";
 
+import logo from "../assets/img/tilted logo.png";
+
 import GitHubIcon from "@material-ui/icons/GitHub";
-// import AlternateEmailIcon from "@material-ui/icons/AlternateEmail";
+import AlternateEmailIcon from "@material-ui/icons/AlternateEmail";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 const Contact = () => {
   const contactStyles = useStyles();
   const [gitHub, setGitHub] = useState(false);
-  // const [email, setEmail] = useState(false);
+  const [email, setEmail] = useState(false);
+  const [eTooltip, setEToolTip] = useState("Copy Email to Clipboard");
   const [linkedIn, setLinkedIn] = useState(false);
 
   const showGit = () => {
     setGitHub(!gitHub);
   };
-  // const showEmail = () => {
-  //   setEmail(!email);
-  // };
+  const showEmail = () => {
+    setEmail(!email);
+  };
   const showLinked = () => {
     setLinkedIn(!linkedIn);
   };
 
-  // const copyEmail = (emailAdd) => {
-  //   console.log(emailAdd);
-  // };
+  const copyEmail = (emailAdd) => {
+    navigator.clipboard.writeText(emailAdd);
+    setEToolTip("Email Copied!");
+  };
 
   return (
     <Box className={contactStyles.contact}>
-      {/* <h1 className={contactStyles.heading}>Contact Me</h1> */}
+      <Avatar
+        variant="rounded"
+        alt="Louise Jacinto Logo"
+        className={contactStyles.logo}
+        src={logo}
+      />
       <Box className={contactStyles.info}>
         <p>
           <span role="img" aria-label="round pushpin">
@@ -36,13 +45,8 @@ const Contact = () => {
           </span>{" "}
           Caloocan, Philippines
         </p>
-        <p>
-          <span role="img" aria-label="e-mail">
-            📧
-          </span>{" "}
-          mn.louisejacinto@gmail.com
-        </p>
       </Box>
+
       <Box className={contactStyles.iconBox}>
         <Tada spy={gitHub}>
           <Tooltip title="Redirect to Github Page">
@@ -54,8 +58,8 @@ const Contact = () => {
             </Link>
           </Tooltip>
         </Tada>
-        {/* <Tada spy={email}>
-          <Tooltip title="Copy my E-mail">
+        <Tada spy={email}>
+          <Tooltip title={eTooltip}>
             <AlternateEmailIcon
               style={{ fontSize: "10vh", color: "#EA4335" }}
               onMouseEnter={() => showEmail()}
@@ -64,7 +68,7 @@ const Contact = () => {
               }}
             />
           </Tooltip>
-        </Tada> */}
+        </Tada>
         <Tada spy={linkedIn}>
           <Tooltip title="Redirect to LinkedIn Profile">
             <Link href="https://www.linkedin.com/in/louise-jacinto">
@@ -76,6 +80,7 @@ const Contact = () => {
           </Tooltip>
         </Tada>
       </Box>
+      <p>&copy; Louise Jacinto | Portfolio created using React</p>
     </Box>
   );
 };
@@ -88,7 +93,33 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "white",
-    // color: "",
+    [theme.breakpoints.down("sm")]: {
+      padding: "0 5rem",
+      //smallest
+    },
+    [theme.breakpoints.up("md")]: {
+      padding: "0 20rem",
+      // medium,
+    },
+    [theme.breakpoints.up("lg")]: {
+      padding: "0 35rem",
+    },
+  },
+  logo: {
+    [theme.breakpoints.down("sm")]: {
+      height: theme.spacing(25),
+      width: theme.spacing(25),
+      //smallest
+    },
+    [theme.breakpoints.up("md")]: {
+      height: theme.spacing(30),
+      width: theme.spacing(30),
+      // medium,
+    },
+    [theme.breakpoints.up("lg")]: {
+      height: theme.spacing(40),
+      width: theme.spacing(40),
+    },
   },
   heading: {
     fontSize: "65px",
@@ -101,16 +132,20 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   info: {
+    // color: "white",
+    color: "#403f3f",
     fontSize: "30px",
+    [theme.breakpoints.down("sm")]: {
+      fontSize: "20px",
+      padding: "0 10px",
+      //smallest
+    },
   },
   iconBox: {
     display: "flex",
     justifyContent: "space-evenly",
-    width: "50%",
+    width: "100%",
     flexWrap: "wrap",
-    // borderRadius: "35px",
-    // // backgroundColor: '#ffd0d094'
-    // boxShadow: "-1px 6px 7px 0px #7b7474",
     padding: "2vh 0",
   },
 }));
