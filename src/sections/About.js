@@ -1,6 +1,6 @@
 import React from "react";
 import { Avatar, Box, makeStyles } from "@material-ui/core";
-import graduate from "../assets/img/graduate.jpg";
+import graduate from "../assets/img/bacolod.jpg";
 import tuan from "../assets/img/tuan.jpg";
 
 const About = () => {
